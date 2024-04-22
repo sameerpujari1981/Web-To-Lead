@@ -11,7 +11,7 @@ function beforesubmit(event){
         console.log("outputdate.value =>",outputdate.value);
     } else {
         alert ("Please check reCAPTCH box to submit the lead.");
-        event.preventdefault();
+        event.preventDefault();
     }    
 }
 
